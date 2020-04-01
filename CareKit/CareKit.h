@@ -75,7 +75,7 @@
 #import <CareKit/OCKConnectViewController.h>
 
 // PDF
-#import <CareKit/OCKDocument.h>
+//#import <CareKit/OCKDocument.h>
 
 // Colors
 #import <CareKit/OCKColor.h>

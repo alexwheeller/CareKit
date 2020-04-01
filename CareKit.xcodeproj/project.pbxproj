@@ -121,9 +121,7 @@
 		86E803901CB4812F00B5C021 /* OCKLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E8038E1CB4812F00B5C021 /* OCKLabel.h */; };
 		86E803911CB4812F00B5C021 /* OCKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E8038F1CB4812F00B5C021 /* OCKLabel.m */; };
 		86EA9A4E1C9C644E00B93BB1 /* OCKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EA9A4A1C9C644E00B93BB1 /* OCKDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86EA9A4F1C9C644E00B93BB1 /* OCKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EA9A4B1C9C644E00B93BB1 /* OCKDocument.m */; };
 		86EA9A501C9C644E00B93BB1 /* OCKHTMLPDFWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EA9A4C1C9C644E00B93BB1 /* OCKHTMLPDFWriter.h */; };
-		86EA9A511C9C644E00B93BB1 /* OCKHTMLPDFWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EA9A4D1C9C644E00B93BB1 /* OCKHTMLPDFWriter.m */; };
 		86EA9A531C9C64C500B93BB1 /* CareKitPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EA9A521C9C64C500B93BB1 /* CareKitPDFTests.m */; };
 		AEB37F671DF224DA002370A6 /* OCKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB37F661DF224DA002370A6 /* OCKColor.m */; };
 		AEB37F691DF22BEF002370A6 /* OCKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB37F681DF224ED002370A6 /* OCKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -330,9 +328,7 @@
 		86E8038E1CB4812F00B5C021 /* OCKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCKLabel.h; sourceTree = "<group>"; };
 		86E8038F1CB4812F00B5C021 /* OCKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCKLabel.m; sourceTree = "<group>"; };
 		86EA9A4A1C9C644E00B93BB1 /* OCKDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCKDocument.h; sourceTree = "<group>"; };
-		86EA9A4B1C9C644E00B93BB1 /* OCKDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCKDocument.m; sourceTree = "<group>"; };
 		86EA9A4C1C9C644E00B93BB1 /* OCKHTMLPDFWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCKHTMLPDFWriter.h; sourceTree = "<group>"; };
-		86EA9A4D1C9C644E00B93BB1 /* OCKHTMLPDFWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCKHTMLPDFWriter.m; sourceTree = "<group>"; };
 		86EA9A521C9C64C500B93BB1 /* CareKitPDFTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CareKitPDFTests.m; sourceTree = "<group>"; };
 		AEB37F661DF224DA002370A6 /* OCKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCKColor.m; sourceTree = "<group>"; };
 		AEB37F681DF224ED002370A6 /* OCKColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCKColor.h; sourceTree = "<group>"; };
@@ -735,9 +731,7 @@
 			isa = PBXGroup;
 			children = (
 				86EA9A4A1C9C644E00B93BB1 /* OCKDocument.h */,
-				86EA9A4B1C9C644E00B93BB1 /* OCKDocument.m */,
 				86EA9A4C1C9C644E00B93BB1 /* OCKHTMLPDFWriter.h */,
-				86EA9A4D1C9C644E00B93BB1 /* OCKHTMLPDFWriter.m */,
 			);
 			path = PDF;
 			sourceTree = "<group>";
@@ -1016,6 +1010,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				fr,
 				de,
@@ -1052,6 +1047,10 @@
 				fr_CA,
 				hi,
 				no,
+				"zh-Hans",
+				"zh-HK",
+				"zh-Hant",
+				"es-419",
 			);
 			mainGroup = 8605A5B01C4F04EC00DD65FF;
 			productRefGroup = 8605A5BB1C4F04EC00DD65FF /* Products */;
@@ -1115,7 +1114,6 @@
 				BA274F3B1EB6F63400DD17EF /* OCKConnectMessagesViewController.m in Sources */,
 				BA3793E71EB66D7D0004A540 /* OCKBadgePatientWidgetView.m in Sources */,
 				8677EE0C1C9775EB00588CD6 /* NSDateComponents+CarePlan.m in Sources */,
-				86EA9A4F1C9C644E00B93BB1 /* OCKDocument.m in Sources */,
 				BA274F481EB703DC00DD17EF /* OCKTextView.m in Sources */,
 				244A924A1CA210F7007B42D6 /* OCKWeekViewController.m in Sources */,
 				241707CA1C9A3AB7005D7123 /* OCKChart.m in Sources */,
@@ -1129,7 +1127,6 @@
 				8677EE0F1C9775EB00588CD6 /* OCKCarePlanActivity.m in Sources */,
 				241707D21C9A3AB7005D7123 /* OCKInsightItem.m in Sources */,
 				24EA9FB51C9A3D420036028E /* OCKCareCardButton.m in Sources */,
-				86EA9A511C9C644E00B93BB1 /* OCKHTMLPDFWriter.m in Sources */,
 				BAD3286B1DB028AF0021A773 /* OCKInsightsRingTableViewCell.m in Sources */,
 				86E803911CB4812F00B5C021 /* OCKLabel.m in Sources */,
 				241707DC1C9A3AB7005D7123 /* OCKInsightsViewController.m in Sources */,
