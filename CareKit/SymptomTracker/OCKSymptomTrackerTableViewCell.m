@@ -89,7 +89,7 @@ static const CGFloat HorizontalMargin = 10.0;
     
     if (!_valueLabel) {
         _valueLabel = [OCKLabel new];
-        _valueLabel.textStyle = UIFontTextStyleTitle1;
+        _valueLabel.textStyle = UIFontTextStyleTitle2;
         _valueLabel.textAlignment = NSTextAlignmentRight;
         [self addSubview:_valueLabel];
     }
