@@ -92,6 +92,7 @@ static const CGFloat HorizontalMargin = 10.0;
         _valueLabel.numberOfLines = 0;
         _valueLabel.textStyle = UIFontTextStyleTitle2;
         _valueLabel.textAlignment = NSTextAlignmentRight;
+        _valueLabel.lineBreakMode = NSLineBreakByWordWrapping;
         [self addSubview:_valueLabel];
     }
     
