@@ -89,6 +89,7 @@ static const CGFloat HorizontalMargin = 10.0;
     
     if (!_valueLabel) {
         _valueLabel = [OCKLabel new];
+        _valueLabel.numberOfLines = 0;
         _valueLabel.textStyle = UIFontTextStyleTitle2;
         _valueLabel.textAlignment = NSTextAlignmentRight;
         [self addSubview:_valueLabel];
@@ -130,7 +131,7 @@ static const CGFloat HorizontalMargin = 10.0;
     _valueLabel.translatesAutoresizingMaskIntoConstraints = NO;
     
     CGFloat LeadingMargin = self.separatorInset.left;
-    CGFloat TrailingMargin = (self.separatorInset.right > 0) ? self.separatorInset.right + 25 : 30;
+    CGFloat TrailingMargin = (self.separatorInset.right > 0) ? self.separatorInset.right + 25 : 35;
     
     CGFloat unitLabelOffset = 0;
     
